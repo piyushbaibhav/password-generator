@@ -37,9 +37,9 @@ function App() {
   },[length, numberAllowed, charAllowed, passwordGenrator])
   return (
     
-      
+      <>
 
-      <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 py3 my-8 text-orange-500 bg-gray-800 ">
+      <div className="w-full max-w-xl mx-auto shadow-md rounded-lg px-4 py3 my-8 text-orange-500 bg-gray-800 ">
 
         <h1 className=' text-center text-white font-bold my-3'>Password Generator</h1>
 
@@ -97,8 +97,16 @@ function App() {
             <label htmlFor="charInput">Characters</label>
           </div>
         </div>
+
+        
       </div>
-    
+
+      // -------
+      <div className="text-white flex justify-center">
+<a href="https://www.instagram.com/reel/Cyv6eP6I8XH/?igshid=MTc4MmM1YmI2Ng==" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Thankyou my pookie wookie</a>
+</div>
+      
+    </>
   )
 }
 
